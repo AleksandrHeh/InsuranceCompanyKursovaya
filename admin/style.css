@@ -1,0 +1,62 @@
+
+html, body{
+    margin: 0;
+    padding: 0
+    }
+
+header{
+    border-bottom: 1px solid grey;
+}
+
+.name_company{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+}
+
+.reports{
+    display: flex;
+    margin: 10px;
+}
+
+.main{
+    display: flex;
+}
+
+img{
+    width: 700px;
+    height: 700px;
+    padding: 50px;
+}
+
+.menu{
+    width: 1000px;
+}
+
+
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(9, 98, 182);
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    padding: 12px;
+}
+
+li{
+    list-style-type: none;
+    padding: 30px;
+    font-size: 20px;
+}
+

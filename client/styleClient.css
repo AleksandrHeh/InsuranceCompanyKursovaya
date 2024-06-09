@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('img/75680981.cms') center/cover;
+    animation: slideBackground 12s infinite;
+    color:white
+}
+
+a{
+    text-decoration:none;
+    color:#fff;
+}
+
+@keyframes slideBackground {
+    40% {
+        background: url('img/1-2-1068x617.jpg') center/cover;
+    }
+    80% {
+        background: url('img/75680981.cms') center/cover;
+    }
+    
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.main-content {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(202, 202, 202, 0.8);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    max-width: 600px;
+    margin: auto; /* Добавляем эту строку для центрирования по горизонтали */
+    position: absolute; /* Добавляем эту строку для корректного центрирования */
+    top: 50%; /* Добавляем эту строку для вертикального центрирования */
+    left: 50%; /* Добавляем эту строку для горизонтального центрирования */
+    transform: translate(-50%, -50%); /* Добавляем эту строку для корректного центрирования */
+}
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+.news {
+    margin: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(202, 202, 202, 0.8);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.read-more {
+    color: blue;
+    cursor: pointer;
+}
+.full-text {
+    display: none;
+}

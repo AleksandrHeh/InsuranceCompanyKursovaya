@@ -1,0 +1,47 @@
+header{
+    display: flex;
+}
+
+header h1{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+table{
+    border: 1px solid gray;
+}
+th{
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.menu_button{
+    padding: 10px;
+}
+
+button{
+    margin: 10px; 
+    width:120px;
+}
+
+input{
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+}   
+
+form{
+    display: none;
+    grid-template-columns: repeat(6, 300px);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
